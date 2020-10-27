@@ -1,24 +1,26 @@
 .general_wrapper
-  %script{:src => "script.js"}
-    %header#header.header
-      %js-header.nav_btn
-        //:before
-        %span.center_btn
-        /::after
-      %nav#js_menu.header_nav
-        %ul.head_menu
-          %li.head_menu_list
-            =link_to "" do
-              why
-          %li.head_menu_list
-            =link_to "" do
-              study
-          %li.head_menu_list
-            =link_to "" do
-              job
-          %li.head_menu_list
-            =link_to "" do
-              strong
-          %li.head_menu_list
-            =link_to "" do
-              hobby
+  %header#header.header
+    %js-header.nav_btn
+      //:before
+      %span.center_btn
+      /::after
+    %nav#js_menu.header_nav
+      %ul.head_menu
+        %li.head_menu_list
+          %a.top_back{:href => ""}
+            ×
+        %li.head_menu_list
+          %a.top_list{:href => ""}
+            why
+        %li.head_menu_list
+          %a.top_list{:href => ""}
+            study
+        %li.head_menu_list
+          %a.top_list{:href => ""}
+            job
+        %li.head_menu_list
+          %a.top_list{:href => ""}
+            strong
+        %li.head_menu_list
+          %a.top_list{:href => ""}
+            hobby
