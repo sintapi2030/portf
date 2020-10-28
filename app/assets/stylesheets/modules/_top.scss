@@ -78,9 +78,11 @@
   text-decoration: none;
   color: #ffffff;
   padding-right: 100px;
+  font-family: "Times New Roman";
 }
-
-
+.top_back:hover{
+  opacity: 0.6;
+}
 
 .top_list{
   color: #ffffff;
@@ -92,3 +94,7 @@
   transition: 0.3s;
   font-family: "Times New Roman";
 }
+.top_list:hover{
+  opacity: 0.6;
+}
+

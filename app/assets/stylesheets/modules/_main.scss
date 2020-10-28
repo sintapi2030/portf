@@ -7,19 +7,36 @@
 .ttl{
   font-size: 50px;
   font-family: "Times New Roman";
-  opacity: 0;
+  animation: 6s linear 0s fade_in;
 }
+
+
 .ja_sentence{
   margin-top: 130px;
-  opacity: 0;
 }
 .sentence{
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
+  font-family: "Times New Roman";
+  animation: 6s linear 0s fade_in;
 }
+
 .en_sentence{
   margin-top: 40px;
   font-family: "Times New Roman";
-  opacity: 0;
+  animation: 4s linear 0s fade_in;
+}
+
+
+@keyframes fade_in{
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
